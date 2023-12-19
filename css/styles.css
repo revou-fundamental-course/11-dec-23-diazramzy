@@ -1,0 +1,172 @@
+/* Header Styles */
+header {
+    display :flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: salmon;
+    padding: 20px;
+    border-bottom: 10px solid purple; /* Border at the bottom */
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 40px;
+    background-color: black;
+    color: #fff;
+    padding: 5px; /* Add padding for better appearance */
+    position: sticky bottom;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo-container img {
+    max-height: 400px; 
+}
+
+.welcome-section h1{
+    font-size: 80px;
+    margin-top: 480px;
+}
+
+body{
+    background-color: antiquewhite;
+    margin-top: 100px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 100px;
+    display: flex;
+    margin-right: 40px;
+    justify-content: flex-end;
+}   
+
+
+
+.isi-web{
+    background-color: black;
+}
+nav ul li {
+    margin-left: 20px;
+    display: inline-block; /* Display each list item as an inline block */
+    padding: 10px; /* Add padding to create a box around each word */
+    border: 10px solid purple; /* Border around each word */
+    background-color: wheat;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+}
+/* ... Existing styles ... */
+
+.message-us-section {
+    display: flex;
+    align-items: flex-start; /* Align items to the start (top) of the flex container */
+    text-align: left;
+    padding: 20px; /* Adjust as needed */
+    border-top: 10px solid purple;
+    font-size: 45px;
+}
+
+.message-us-section h2 {
+    color: #333;
+}
+
+.message-us-section form {
+    max-width: 400px;
+    margin-right: 20px; /* Adjust as needed */
+}
+
+.message-us-section label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.message-us-section input,
+.message-us-section textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+.message-us-section button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.message-us-section .gender-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.result-container {
+    padding: 20px;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: auto;
+}
+
+
+.hero-img{
+	width: 800px;
+	height: 100%;
+}
+.hero-line {
+	border: 3px solid black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* Update existing CSS for the slider images */
+.slider img {
+  height: 1000px; /* Adjust the height as needed */
+  width: 100%;
+  display: inline-block; /* Initially hide all images */
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: white;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+

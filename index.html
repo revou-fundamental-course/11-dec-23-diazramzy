@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Diaz Ramzy</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="img/profilee.png" alt="Your School Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#profile-section">Our Profile</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="welcome-section">
+        <h1 id="welcome-message">Halo<span id="user-name">Name</span></h1>
+    </section>
+
+    <section class="isi-web">
+        <div class="isi-container">
+            <div class="slider">
+                <img class="img-slideshow" src="https://source.unsplash.com/random/1080x400?landscape&sig=1" />
+                <img class="img-slideshow" src="https://source.unsplash.com/random/1080x400?landscape&sig=3" />
+            </div>
+            <a class="prev" onclick="prevSlide()">&#10094;</a>
+            <a class="next" onclick="nextSlide()">&#10095;</a>
+        </div>
+    </section>
+    <section id = "profile-section" class = "profileee">
+        <div class = "card">
+            <img src="/img/merah.jpeg" alt="John" style="width:100%">
+            <h1>Diaz Ramzy</h1>
+            <p class="title">Computer Of Science</p>
+            <p>Telkom University</p>
+            <div style="margin: 24px 0;">
+                <a href="https://id.linkedin.com/in/diaz-ramzy-207ba3221"><i class="fa fa-linkedin"></i></a>  
+            </div>
+        <p>Profile Card</p>
+        </div>
+    </section>
+
+    <section class="message-us-section">
+        <div class="form-container">
+            <h2>Message Us</h2>
+            <form id="messageForm" action="#" method="post">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+
+                <label for="tgl_lahir">Tanggal Lahir:</label>
+                <input type="date" id="tgl_lahir" name="tgl_lahir" required>
+
+                <label>Jenis Kelamin:</label>
+                <div class="gender-container">
+                    <div>
+                        <input type="radio" id="laki_laki" name="jenis_kelamin" value="laki_laki" required>
+                        <label for="laki_laki">Laki-Laki</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan" required>
+                        <label for="perempuan">Perempuan</label>
+                    </div>
+                </div>
+
+                <label for="pesan">Pesan:</label>
+                <textarea id="pesan" name="pesan" rows="4" required></textarea>
+
+                <button type="button" onclick="submitForm()">Kirim Pesan</button>
+            </form>
+        </div>
+
+        <div id="submitted-values" class="result-container"></div>
+    </section>
+
+
+    <footer>
+        <h5>Copyright Dibuat Oleh @Diaz</h5>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
